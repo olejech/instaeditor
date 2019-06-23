@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-jumbotron header="Контакт для связи" lead="Почта: hello@instaeditor.ru">
+    <b-jumbotron header="Контакт для связи" lead="Instagram: @instaeditorjs">
       </b-jumbotron>
   </div>
 </template>
