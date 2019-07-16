@@ -6,7 +6,7 @@
         <h1 class="text-center mb-3 d-block d-sm-none">InstaEditor</h1>
       </b-col>
     </b-row>
-    <b-row class="mt-2">
+    <b-row class="mt-1">
       <b-col>
         <b-button @click="textToFormatBy('$1\u0332')" variant="outline-primary">
           <u>U</u>
@@ -23,7 +23,7 @@
         <b-button @click="copyTextarea" variant="outline-primary">Скопировать</b-button>
       </b-col>
     </b-row>
-    <b-row class="mt-3">
+    <b-row class="mt-5">
       <b-col>
         <b-form-textarea
           id="textarea"
