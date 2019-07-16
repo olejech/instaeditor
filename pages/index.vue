@@ -1,21 +1,13 @@
 <template>
   <section>
-    <b-row class="mt-3">
+    <b-row class="row mt-2">
       <b-col>
         <h1 class="text-center mb-3 d-none d-sm-block">InstaEditor - редактор текста для Инстаграм</h1>
         <h1 class="text-center mb-3 d-block d-sm-none">InstaEditor</h1>
-        <b-form-textarea
-          id="textarea"
-          v-model="input_text"
-          placeholder="Введите текст... Нажмите 1 раз Enter для новой строки и 2 раза для пустой строки 😉"
-          rows="14"
-          :state="input_text.length <= 2200 && input_text.length > 0"
-        ></b-form-textarea>
-        <small for="textarea" class="float-right">{{ this.input_text.length }} / 2200</small>
       </b-col>
     </b-row>
-    <div class="row mt-2">
-      <div class="col-md-12">
+    <b-row class="mt-2">
+      <b-col>
         <b-button @click="textToFormatBy('$1\u0332')" variant="outline-primary">
           <u>U</u>
         </b-button>
@@ -29,8 +21,20 @@
           <i>I</i>
         </b-button>
         <b-button @click="copyTextarea" variant="outline-primary">Скопировать</b-button>
-      </div>
-    </div>
+      </b-col>
+    </b-row>
+    <b-row class="mt-3">
+      <b-col>
+        <b-form-textarea
+          id="textarea"
+          v-model="input_text"
+          placeholder="Введите текст... Нажмите 1 раз Enter для новой строки и 2 раза для пустой строки 😉"
+          rows="14"
+          :state="input_text.length <= 2200 && input_text.length > 0"
+        ></b-form-textarea>
+        <small for="textarea" class="float-right">{{ this.input_text.length }} / 2200</small>
+      </b-col>
+    </b-row>
   </section>
 </template>
 
