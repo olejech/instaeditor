@@ -6,7 +6,19 @@
         <h1 class="text-center mb-3 d-block d-sm-none">InstaEditor</h1>
       </b-col>
     </b-row>
-    <b-row class="mt-1">
+    <b-row class="mt-2">
+      <b-col>
+        <b-form-textarea
+          id="textarea"
+          v-model="input_text"
+          placeholder="Введите текст... Нажмите 1 раз Enter для новой строки и 2 раза для пустой строки 😉"
+          rows="14"
+          :state="input_text.length <= 2200 && input_text.length > 0"
+        ></b-form-textarea>
+        <small for="textarea" class="float-right">{{ this.input_text.length }} / 2200</small>
+      </b-col>
+    </b-row>
+    <b-row class="mt-2">
       <b-col>
         <b-button @click="textToFormatBy('$1\u0332')" variant="outline-primary">
           <u>U</u>
@@ -21,18 +33,6 @@
           <i>I</i>
         </b-button>
         <b-button @click="copyTextarea" variant="outline-primary">Скопировать</b-button>
-      </b-col>
-    </b-row>
-    <b-row class="mt-5">
-      <b-col>
-        <b-form-textarea
-          id="textarea"
-          v-model="input_text"
-          placeholder="Введите текст... Нажмите 1 раз Enter для новой строки и 2 раза для пустой строки 😉"
-          rows="14"
-          :state="input_text.length <= 2200 && input_text.length > 0"
-        ></b-form-textarea>
-        <small for="textarea" class="float-right">{{ this.input_text.length }} / 2200</small>
       </b-col>
     </b-row>
   </section>
