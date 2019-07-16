@@ -19,9 +19,9 @@
       </b-col>
     </b-row>
     <b-row>
-      <b-col>
-        <b-button @click="hashtags" variant="outline-primary">Генерировать и копировать</b-button>
-        <b-button @click="hashtagsRandom" variant="outline-primary">Поменять местами</b-button>
+      <b-col sm="auto">
+        <b-button class="mb-3" @click="hashtags" variant="outline-primary">Генерировать и копировать</b-button>
+        <b-button class="mb-3" @click="hashtagsRandom" variant="outline-primary">Поменять местами</b-button>
       </b-col>
     </b-row>
   </div>
