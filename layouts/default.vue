@@ -11,7 +11,7 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col>© 2019 InstaEditor.ru</b-col>
+        <b-col>© 2020 InstaEditor.ru</b-col>
       </b-row>
     </footer>
   </b-container>

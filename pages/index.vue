@@ -7,13 +7,6 @@
       </b-col>
     </b-row>
     <b-row class="mt-2">
-      <!-- <textarea style="width:200px; height: 60px;" id="area" placeholder="Напишите сообщение здесь"></textarea>
-      <br />
-      <button onclick="localStorage.removeItem('area');area.value=''">Очистить</button>
-      area.value = localStorage.getItem('area');
-      area.oninput = () => {
-      localStorage.setItem('area', area.value)
-      };-->
       <b-col>
         <b-form-textarea
           id="textarea"
@@ -50,8 +43,17 @@
           <i>I</i>
         </b-button>
         <b-button @click="copyTextarea" variant="outline-primary">Скопировать</b-button>
-        <p class="mt-3">18.10.2019: текст автоматически сохраняется на вашем устройстве</p>
-        <b-button @click="input_text=''" variant="outline-danger">Очистить</b-button>
+        <div>
+          <b-button @click="input_text=''" variant="outline-danger" class="mt-3">Очистить</b-button>
+        </div>
+
+        <h3 class="text-center mt-3">Сервис создания фейковой статистики</h3>
+        <a href="https://instafakestats.ru" target="_blank">
+          <img class="mt-3 instafakestats" src="/instafakestats.gif" alt="Сайт instafakestats.ru" />
+        </a>
+        <span class="mt-3 text-center instafakestats">
+          <a href="https://instafakestats.ru" target="_blank">Перейти на сайт</a>
+        </span>
       </b-col>
     </b-row>
   </section>
@@ -224,3 +226,12 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+.instafakestats {
+  display: block;
+  max-width: 414px;
+  width: 100%;
+  margin: 0 auto;
+}
+</style>
