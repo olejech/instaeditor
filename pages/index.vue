@@ -35,18 +35,19 @@
       неудобно! Именно поэтому появились сайт&nbsp;/ приложение, которые решают
       эту проблему.
     </p>
-    <p class="mb-3">
+    <p class="mb-5">
       Возможно, вам будут полезны и&nbsp;другие сервисы для Instagram.
     </p>
-    <h2 class="text-center mt-3">Сервис создания фейковой статистики</h2>
-    <a href="https://v2.instafakestats.ru" target="_blank">
+    <h2 class="text-center mb-4">Сервис создания фейковой статистики</h2>
+    <a class="mb-3" href="https://v2.instafakestats.ru" target="_blank">
       <img
-        class="mt-3 instafakestats"
+        class="mb-3 img-fluid mx-auto d-block image"
         src="/instafakestats.gif"
         alt="Сайт instafakestats.ru"
       />
     </a>
-    <span class="mt-3 text-center instafakestats">
+
+    <div class="text-center">
       <b-button
         href="https://v2.instafakestats.ru"
         target="_blank"
@@ -54,7 +55,7 @@
       >
         Перейти на сайт
       </b-button>
-    </span>
+    </div>
   </section>
 </template>
 
@@ -106,6 +107,11 @@ export default {
 <style scoped>
 .title {
   font-size: 20px;
+}
+
+.image {
+  width: 100%;
+  max-width: 414px;
 }
 
 @media screen and (min-width: 576px) {
