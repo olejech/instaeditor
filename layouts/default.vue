@@ -10,7 +10,7 @@
         </b-col>
       </b-row>
       <b-row class="mb-2">
-        <b-col>© {{ new Date().getFullYear() }} InstaEditor.ru</b-col>
+        <b-col>{{ new Date().getFullYear() }} &#169; InstaEditor.ru</b-col>
       </b-row>
     </footer>
   </b-container>
