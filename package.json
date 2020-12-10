@@ -1,8 +1,8 @@
 {
-  "name": "instaedit",
+  "name": "instaeditor",
   "version": "1.0.0",
   "description": "Instagram Editor",
-  "author": "User",
+  "author": "olejech",
   "private": true,
   "scripts": {
     "dev": "nuxt",

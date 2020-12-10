@@ -1,22 +1,15 @@
-# instaedit
+# InstaEditor — content editor for Instagram bloggers
 
-> Instagram Editor
+This service help you write Instagram posts with paragraphs
 
-## Build Setup
+## Features:
 
-``` bash
-# install dependencies
-$ npm install
+- checks the number of characters (maximum of Instagram 2200);
+- copy to clipboard;
+- clear textarea by click
+- save text to local storage
+- PWA
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Example
 
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+![Example post created by InstaEditor](https://github.com/olejech/instaeditor/blob/master/example.png?raw=true)
