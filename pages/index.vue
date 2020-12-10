@@ -39,14 +39,11 @@
       Возможно, вам будут полезны и&nbsp;другие сервисы для Instagram.
     </p>
     <h2 class="text-center mb-4">Сервис создания фейковой статистики</h2>
-    <a class="mb-3" href="https://v2.instafakestats.ru" target="_blank">
-      <img
-        class="mb-3 img-fluid mx-auto d-block image"
-        src="/instafakestats.gif"
-        alt="Сайт instafakestats.ru"
-      />
-    </a>
-
+    <img
+      class="mb-3 img-fluid mx-auto d-block image"
+      src="/instafakestats.gif"
+      alt="Сайт instafakestats.ru"
+    />
     <div class="text-center">
       <b-button
         href="https://v2.instafakestats.ru"
