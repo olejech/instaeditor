@@ -1,14 +1,18 @@
 # InstaEditor — content editor for Instagram bloggers
 
-This service help you write Instagram posts with paragraphs
+This service help you write Instagram posts with paragraphs.
 
-## Features:
+## Demo
+
+[InstaEditor.ru](http://instaeditor.ru/)
+
+## Features
 
 - checks the number of characters (maximum of Instagram 2200);
 - copy to clipboard;
-- clear textarea by click
-- save text to local storage
-- PWA
+- clear textarea by click;
+- save text to local storage;
+- PWA.
 
 ## Example
 
